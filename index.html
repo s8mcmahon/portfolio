@@ -37,7 +37,7 @@
                         <li class="nav-item"><a class="nav-link" href="#aboutus"><i
                   class="fa fa-info fa-lg"></i>
                 About Us</a></li>
-            <li class="nav-item"><a class="nav-link" href="contactus.html"><i
+            <li class="nav-item"><a class="nav-link" href="#email"><i
                   class="fa fa-address-card fa-lg"></i>
                 Contact</a></li>
 ​
@@ -114,9 +114,14 @@
   <div class="container">
     <div class="row">
       <div class="col-6" padding-large hide-small>
-        <h1 class="center">About Catering</h1><br> 
-        <h5 class="center">Tradition since 1889</h5>
-        <p class="large">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use <span class="light-grey">seasonal</span> ingredients.</p>
+        <h1 class="center">Catering</h1><br> 
+        <h5 class="center">Let us cater your event</h5>
+        <p class="large">Our catering has delivered the highest quality catering 
+          experience tailored to each client’s specific needs – all of which equals an immense value 
+          that is waiting to for you! Our recipe is easy – high quality, down-to-earth, homemade catering 
+          for every menu item we offer – made fresh and prepared from scratch. It’s simple – Just. Good. Food. 
+          Serving the entire greater Pittsburgh region and the Tri-State area of Pittsburgh, East Ohio, 
+          and West Virginia, we will travel to meet your needs. Send the catering inquiry form to get your party started!</p>
       </div>
 ​
       <div class="col-6">
@@ -126,7 +131,52 @@
       </div>
     </div>
   </div>
-​
+​<div class="modal fade" id="modalContactForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">Write to us</h4>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <i class="fas fa-user prefix grey-text"></i>
+          <input type="text" id="form34" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form34">Your name</label>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class="fas fa-envelope prefix grey-text"></i>
+          <input type="email" id="form29" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form29">Your email</label>
+        </div>
+
+        <div class="md-form mb-5">
+          <i class="fas fa-tag prefix grey-text"></i>
+          <input type="text" id="form32" class="form-control validate">
+          <label data-error="wrong" data-success="right" for="form32">Subject</label>
+        </div>
+
+        <div class="md-form">
+          <i class="fas fa-pencil prefix grey-text"></i>
+          <textarea type="text" id="form8" class="md-textarea form-control" rows="4"></textarea>
+          <label data-error="wrong" data-success="right" for="form8">Your message</label>
+        </div>
+
+      </div>
+      <div class="modal-footer d-flex justify-content-center">
+        <button class="btn btn-unique">Send <i class="fas fa-paper-plane-o ml-1"></i></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="text-center">
+  <a href="" class="btn btn-outline-danger btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Catering Inquires</a>
+</div>
 <hr>
 ​  <div class="container">
   <div class="row">
@@ -176,7 +226,7 @@
                 class="fa fa-phone"></i>
               1-231-234-1234</a><br />
             <a role="button" class="btn btn-link"
-              href="mailto:harolds@gmail.co"><i class="fa fa-envelope-o"></i>
+              href="mailto:harolds@gmail.co"><i class="fa fa-envelope-o" id="email"></i>
               harolds@gmail.co</a>
           </div>
         </div>
