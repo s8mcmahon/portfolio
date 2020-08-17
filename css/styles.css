@@ -17,7 +17,11 @@ header h2 {
 }
 
 .container {
-  position: relative;
+  position: relative
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .text-block {
@@ -31,7 +35,7 @@ header h2 {
 }
 
 .site-footer {
-  background-image: linear-gradient(#6d2204, white);
+  background-image: linear-gradient(#7c1204, rgb(160, 35, 35), white);
   padding: 20px 0;
 }
 
@@ -42,10 +46,10 @@ header h2 {
 }
 
 .navbar {
-  background-color: #6d2204;
+  background-color:#7c1204;
 }
 .carousel-caption {
-  background-color: rgba(241, 237, 237, 0.5);
+  background-color: rgba(187, 14, 14, 0.7);
 }
 
 .carousel {
@@ -77,4 +81,11 @@ li:not(:last-child) {
   content: "";
   display: table;
   clear: both;
+}
+
+.table {
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 25px;
+    float: none;
 }
