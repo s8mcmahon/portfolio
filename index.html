@@ -20,7 +20,7 @@
 <body>
    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
       <div class="container">
-         <a class="navbar-brand" href="index.html"></a>
+         <a class="navbar-brand" href="#!"></a>
        <a href="#home" class="bar-item button"><h4 style="color: white">Harold's Inn Restaurant</h4></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse">
           <span class="navbar-toggler-icon"></span>
@@ -41,22 +41,7 @@
                   class="fa fa-address-card fa-lg"></i>
                 Contact</a></li>
 ​
-                <!-- Everything from line 45 to 47 can be removed. I kept it for your records. -->
-                 <!-- <li class="nav-item"><a class="nav-link" href="contactus.html">
-                  class="fa fa-car fa-lg"></i>
-                Directions</a></li> -->
-​
-                <!-- Start of my code. -->
-                <li class="nav-item">
-                  <a class="nav-link" href="#directions">
-                    <i class="fa fa-car fa-lg"></i> Directions
-                  </a>
-                </li>
-​
-                <!--
-                  JOHN COMMENT:
-                  You have two 'contact us' links above. Also, the second 'contact us' has invalid HTML syntax b/c the class attribute is outside of the opening HTML tag. 
-                -->
+    
           </ul>
         </div>
       </div>
@@ -184,18 +169,18 @@
 <div class="container">
       <div class="row row-content">
         <div class="col-md-8 mx-auto">
-          <div id="homeCarousel" class="carousel slide" data-ride="carousel">
+          <div id="#homecarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
               <li data-target="#homeCarousel" data-slide-to="1"></li>
               <li data-target="#homeCarousel" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item active" id="#homecarousel">
                 <img class="d-block w-100" src="/images/breakfast.jpg" height="400px"
                   alt="Blueberry Banana French Toast" />
                 <div class="carousel-caption">
-                  <h3 style="color: white">Blueberry Banana French Toast</h3>
+                  <h3 style="color: white">Blu-nana French Toast</h3>
                   <p class="d-one d-sm-block" style="color: white">Features home made bread, and the freshest fruit!</p>
                 </div>
               </div>
@@ -262,9 +247,9 @@
           <div class="col-4 col-sm-2 offset-1">
             <h5 style="color: white">Links</h5>
             <ul class="list-unstyled">
-              <li><a href="#index" style="color: white">Home</a></li>
-              <li><a href="#aboutus" style="color: white">About</a></li>
-              <li><a href="menu.html" style="color: white">Menu</a></li>
+              <li><a href="#index">Home</a></li>
+              <li><a href="#aboutus">About</a></li>
+              <li><a href="menu.html">Menu</a></li>
             </ul>
           </div>
           <div class="col-6 col-sm-5 text-center">
