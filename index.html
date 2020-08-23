@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <link rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet"
@@ -19,12 +19,12 @@
 <body>
    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
       <div class="container">
-         <a class="navbar-brand" href="#!"></a>
+         <a class="navbar-brand" href="#"></a>
        <a href="#home" class="bar-item button"><h4 style="color: white">Harold's Inn Restaurant</h4></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#haroldsnavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse">
+        <div class="collapse navbar-collapse" id="haroldsnavbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active"><a class="nav-link" href="index.html"><i
                   class="fa fa-home fa-lg"></i> Home</a>
@@ -46,9 +46,7 @@
 <div class="row">
   <img class="image" src="/images/booth.jpg" alt="Your Booth" style="width:100%;" id="index" height="50%">
   </div>
-​
 <hr>
-​
   <div class="container">
   <div class="row">
     <div class="content">
@@ -130,7 +128,7 @@
   </div>
 </div>
 <div class="text-center">
-  <a href="" class="btn btn-outline-danger btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Catering Inquires</a>
+  <a class="btn btn-outline-danger btn-rounded mb-4" data-toggle="modal" data-target="#modalContactForm">Catering Inquires</a>
 </div>
 </div>
 </div>
@@ -184,9 +182,9 @@
         </div>
       </div>
       </div>
- <div class="text-center">
-   <a class="btn btn-outline-danger btn-rounded mb-4" href="menu.html" role="button">View our full menu here</a>
- </div>
+<div class="text-center">
+  <a class="btn btn-outline-danger btn-rounded mb-4" href="menu.html">View our menu here</a>
+</div>
 ​  <div class="container">
   <div class="row">
     <div class="content">
@@ -239,7 +237,6 @@
         </div>
      </div>
     </footer>
-
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
