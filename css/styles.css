@@ -17,7 +17,7 @@ header h2 {
 }
 
 .container {
-  position: relative
+  position: relative;
   padding-left: 30px;
   padding-right: 30px;
   margin-left: 30px;
@@ -41,12 +41,12 @@ header h2 {
 
 .row-content {
   padding: 50px 0;
-  border-bottom: 1px ridge;
+  border-bottom: 0;
   min-height: 200px;
 }
 
 .navbar {
-  background-color:#7c1204;
+  background-color: #7c1204;
 }
 .carousel-caption {
   background-color: rgba(187, 14, 14, 0.7);
@@ -55,9 +55,10 @@ header h2 {
 .carousel {
   border: solid red;
 }
-.carousel-inner {
+.carousel-inner > .item > img {
   width: 100%;
   max-height: 500px;
+  margin: 0 auto;
 }
 
 #carouselButton {
@@ -73,9 +74,8 @@ li:not(:last-child) {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; 
+  height: 300px;
 }
-
 
 .row:after {
   content: "";
@@ -84,8 +84,8 @@ li:not(:last-child) {
 }
 
 .table {
-    border-radius: 5px;
-    width: 50%;
-    margin-left: 25px;
-    float: none;
+  border-radius: 5px;
+  width: 50%;
+  margin-left: 25px;
+  float: none;
 }
