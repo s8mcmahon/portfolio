@@ -17,7 +17,6 @@ header h2 {
 }
 
 .container {
-  position: absolute
   padding-left: 30px;
   padding-right: 30px;
   margin-left: 30px;
@@ -48,6 +47,7 @@ header h2 {
 .navbar {
   background-color:#7c1204;
 }
+
 .carousel-caption {
   background-color: rgba(187, 14, 14, 0.7);
 }
